@@ -2,7 +2,7 @@
 setTimeout(() => {
     document.getElementById('intro').style.display = 'none';
     document.getElementById('content').style.display = 'block';
-}, 2000);
+}, 3000);
 
 let bluetoothDevice;
 let bluetoothCharacteristic;

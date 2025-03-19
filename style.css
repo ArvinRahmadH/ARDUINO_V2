@@ -5,13 +5,19 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    background: url('gambar_intro.png') no-repeat center center;
     background-size: cover; /* Menyesuaikan ukuran gambar */
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 9999;
 }
+
+.intro-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Gambar menyesuaikan tanpa terpotong */
+}
+
 
 
 /* Mengatur tampilan halaman utama */

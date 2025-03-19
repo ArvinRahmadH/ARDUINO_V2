@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontrol Arduino via Bluetooth</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Layar intro -->
+    <div id="intro"></div>
+
+    
+    <!-- Konten utama -->
+    <div id="content" style="display: none;">
+        <h1>Kontrol LED dengan Bluetooth</h1>
+        <button onclick="connectBluetooth()">Bluetooth</button>
+        <button onclick="sendData('1')">Lampu ON</button>
+        <button onclick="sendData('0')">Lampu OFF</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

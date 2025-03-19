@@ -24,8 +24,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100vw;
     height: 100vh;
     background-color: #9bd476;
+    max-width: 100%;
+    padding: 10px;
 }
 
 h1 {

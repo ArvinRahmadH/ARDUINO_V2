@@ -5,19 +5,13 @@
     left: 0;
     width: 100%;
     height: 100vh;
+    background: url('gambar_intro.png') no-repeat center center;
     background-size: cover; /* Menyesuaikan ukuran gambar */
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 9999;
 }
-
-.intro-img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain; /* Gambar menyesuaikan tanpa terpotong */
-}
-
 
 
 /* Mengatur tampilan halaman utama */
@@ -30,11 +24,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
     height: 100vh;
     background-color: #9bd476;
-    max-width: 100%;
-    padding: 10px;
 }
 
 h1 {
